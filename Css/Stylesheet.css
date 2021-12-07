@@ -1,16 +1,45 @@
 body{
-    font-family: sans-serif;
+    font-family: cursive;
     font-size:110%;
     background-color: #FCF7F8;
   }
   
-  header { background-color: #343330;
-    text-align: center;
-  
-  }
-  
-  footer {
+  header { font-family: cursive;
     background-color: #343330;
     text-align: center;
+    border-radius: 10px;
+  
   }
+  
+  footer { font-family: cursive;
+    background-color: #343330;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  #sidebar { font-family: cursive;
+    width: 23%;
+    background-color: #343330;
+    border-radius: 10px;
+  }
+
+  .icons{
+    width:3rem;
+    height: auto;
+    border-radius: 60px;
+  } 
+
   stylesheet.css
+
+  .section{
+
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+
+    padding: 10px;
+
+    margin-bottom: 40px;
+
+    border-radius: 10px;
+
+  }
