@@ -71,7 +71,7 @@ body{
     display: flex;
   }
   #backgroundPicture{
-    width: 250%;
+    width:100% ;
     background-size: 100%;
     display:block
   }
