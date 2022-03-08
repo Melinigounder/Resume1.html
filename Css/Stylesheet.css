@@ -12,7 +12,9 @@ body{
     text-align: center;
     margin: 10px;
     border-radius: 10px;
-    background: white url(https://www.newegg.com/insider/wp-content/uploads/2021/10/Best-Gaming-Laptop.png)}
+    background: white url(https://codespace.ams3.digitaloceanspaces.com/wp/2017/06/couch-people-1080x675.jpg)
+  }
+    
   #headshot{
     height: 200px;
     border: 5px;
@@ -73,6 +75,6 @@ body{
   #backgroundPicture{
     width:100% ;
     background-size: 100%;
-    display:block
+
   }
 
