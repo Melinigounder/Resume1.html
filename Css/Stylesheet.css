@@ -77,6 +77,8 @@ body{
     background-size: 100%;
 
   }
+  
+
   /*code for mobile devices smaller than 600px*/
 body { background-color: purple; }
 
