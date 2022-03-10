@@ -10,7 +10,8 @@ body{
   header { font-family: cursive;
     background-color:grey;
     text-align: center;
-   
+    border-radius: 10px;
+    margin: 10px;
     background: white url(https://wallpaper.dog/large/10906200.jpg)
   }
     
@@ -29,6 +30,7 @@ body{
     padding: 50px;
     margin: 10px;
     border-radius: 10px;
+    background: white url(https://wallpaper.dog/large/10906200.jpg)
   }
 
   #sidebar { font-family: cursive;
@@ -37,8 +39,9 @@ body{
     margin: 10px;
     border-radius: 10px;
     font-size: 80%;
-    
+    background: white url(https://wallpaper.dog/large/10906200.jpg)
   }
+    
 
   .icons{
     width:3rem;
@@ -90,6 +93,7 @@ body{
     transform: scale(1.5); 
         
   } 
+  
 
   /*code for mobile devices smaller than 600px*/
 body { background-color: purple; }
