@@ -27,14 +27,12 @@ body{
     border-radius: 200px;   
   }
   .rounded-circle{
-    height: 150px;
-    width: 150px;
-  
+    width:160%;
+    height: 160px;
     border-style: solid;
     border-color: blueviolet;
     border-radius: 200px;
     
-  
   }
 
   
