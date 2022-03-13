@@ -24,9 +24,19 @@ body{
     border: 6px;
     border-style: solid;
     border-color: blueviolet;
-    border-radius: 200px;
-   
+    border-radius: 200px;   
   }
+  .rounded-circle{
+    height: 150px;
+    width: 150px;
+  
+    border-style: solid;
+    border-color: blueviolet;
+    border-radius: 200px;
+    
+  
+  }
+
   
   footer { font-family: cursive;
     background-color: grey;
