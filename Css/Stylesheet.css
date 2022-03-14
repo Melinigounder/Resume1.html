@@ -34,7 +34,7 @@ body{
     border-radius: 100%;
     border-style: solid;
     image-resolution: 100%;
-    
+    transform: translateX(-2em);
     }
   
 
