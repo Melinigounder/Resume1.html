@@ -108,13 +108,16 @@ body{
     transform: scale(1.5); 
         
   } 
-  
+  .jumbotron{
+    background-color: transparent;
+  }
 
-  /*code for mobile devices smaller than 600px*/
+  
+/*code for mobile devices smaller than 600px*/
 body { background-color: purple; }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 576px) {
    body { background-color: violet; }
 } 
 
