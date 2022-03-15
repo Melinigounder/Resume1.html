@@ -1,14 +1,137 @@
-body{
-  font-family: sans-serif;
-  font-size:110%;
+-body{
+  font-family: cursive;
+  font-size:100%;
   background-color: #FCF7F8;
+  margin: 10px;
+  border-color: blueviolet;
+  border-style: solid;
+  display: grid;
+  
+
 }
 
-header {
+header { font-family: cursive;
+  background-color:grey;
   text-align: center;
+  border-radius: 10px;
+  margin:10px ;
+  background:white url(https://wallpaper.dog/large/10906200.jpg)
+}
+  
+
+#headshot{
+  height: 200px;
+  width: 200px;
+  border: 6px;
+  border-style: solid;
+  border-color: blueviolet;
+  border-radius: 200px;   
+}
+.rounded-circle{
+  height: 160px;
+  width: 160%;
+  border-color: blueviolet;
+  border-radius: 100%;
+  border-style: solid;
+  image-resolution: 100%;
+  transform: translateX(-2em);
+  }
+
+
+
+footer { font-family: cursive;
+  background-color: grey;
+  text-align: center;
+  padding: 50px;
+  margin: 10px;
+  border-radius: 5px;
+  background: white url(https://wallpaper.dog/large/10906200.jpg)
 }
 
-footer {
-  background-color: #343330;
-  text-align: center;
+#sidebar { font-family: cursive;
+  background-color:grey;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 80%;
+  background: white url(https://wallpaper.dog/large/10906200.jpg)
 }
+  
+
+.icons{
+  width:3rem;
+  height: auto;
+  border-radius: 60px;
+  margin: 1rem;
+} 
+
+stylesheet.css
+
+.section{
+
+  background-color: rgb(0, 0, 0);
+  color: whitesmoke;
+
+  padding: 10px;
+
+  margin-bottom: 40px;
+
+  border-radius: 10;
+}
+#content{
+  width: 80;
+  padding: 1rem;
+  margin: 1rem;
+}
+.main{ display:flex;
+  display:row;
+}
+.nav-menu{
+  display: flex;
+}
+#backgroundPicture{
+  width:80% ;
+  background-size: 80%;
+
+}
+.zoom {
+  padding: 50px;
+  transition: transform .2s;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.zoom :hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+      
+} 
+.jumbotron{
+  background-color: transparent;
+}
+
+/*code for mobile devices smaller than 600px*/
+body { background-color: purple; }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+ body { background-color: violet; }
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+ body { background-color: yellow; }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+ body { background-color: yellowgreen; }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+ body { background-color:white; }
+}
+
